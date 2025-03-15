@@ -108,12 +108,12 @@
     "normal": {
       "Difficulty": {
         "VisibleDistCoef": 1.0,
-        "GainSightCoef": 2.0,
-        "ScatteringCoef": 2.5,
-        "HearingDistanceCoef": 0.5,
+        "GainSightCoef": 1.7,
+        "ScatteringCoef": 2.0,
+        "HearingDistanceCoef": 0.7,
         "AggressionCoef": 0.8,
         "PrecisionSpeedCoef": 1.0,
-        "AccuracySpeedCoef": 2.0
+        "AccuracySpeedCoef": 1.8
       },
       "Core": {
         "VisibleAngle": 130.0,
