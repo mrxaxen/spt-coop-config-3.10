@@ -1,0 +1,41 @@
+/*
+*.*
+!.gitignore
+
+# SPT server configuration and database
+!/SPT_Data
+/SPT_Data/Launcher/*
+/SPT_Data/Server/*
+!/SPT_Data/Server/configs
+!/SPT_Data/Server/database
+!/user
+/user/*
+!/user/mods
+!/user/mods/"[SVM] Server Value Modifier"/Presets
+!/user/mods/SPT-Realism/config
+
+# Player profiles
+!/user/profiles
+
+# AI configurations
+!/BepInEx
+!/BepInEx/plugins
+/BepInEx/plugins/*
+!/BepInEx/plugins/SAIN
+!/BepInEx/plugins/Donuts
+
+# Flea market customization(key inclusion early)
+!/user/mods/SPT-Realism/src/traders/fleamarket.ts
+
+!*.json
+!*.jsonc
+
+**/cache/
+/user/launcher/config.json
+modding_progress.json
+mods.json
+**/locales
+#**/db
+**/package.json
+**/bundles.json
+**/LICENSE
