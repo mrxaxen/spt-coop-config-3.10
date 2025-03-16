@@ -108,15 +108,15 @@
     "normal": {
       "Difficulty": {
         "VisibleDistCoef": 1.0,
-        "GainSightCoef": 1.2,
-        "ScatteringCoef": 1.5,
+        "GainSightCoef": 1.5,
+        "ScatteringCoef": 2.0,
         "HearingDistanceCoef": 1.0,
         "AggressionCoef": 0.8,
-        "PrecisionSpeedCoef": 1.0,
+        "PrecisionSpeedCoef": 1.15,
         "AccuracySpeedCoef": 1.5
       },
       "Core": {
-        "VisibleAngle": 160.0,
+        "VisibleAngle": 135.0,
         "VisibleDistance": 137.0,
         "GainSightCoef": 0.1,
         "AccuratySpeed": 0.2,
@@ -128,7 +128,7 @@
       "Aiming": {
         "AimCenterMass": true,
         "DistanceAimTimeMultiplier": 1.2,
-        "AngleAimTimeMultiplier": 1.0,
+        "AngleAimTimeMultiplier": 1.2,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.33,
@@ -140,7 +140,7 @@
         "BASE_HIT_AFFECTION_DELAY_SEC": 0.65,
         "MIN_TIME_DISCARD_AIM_SEC": 0.5,
         "MAX_TIME_DISCARD_AIM_SEC": 1.5,
-        "FIRST_CONTACT_ADD_SEC": 0.2
+        "FIRST_CONTACT_ADD_SEC": 0.25
       },
       "Boss": {
         "SET_CHEAT_VISIBLE_WHEN_ADD_TO_ENEMY": false
