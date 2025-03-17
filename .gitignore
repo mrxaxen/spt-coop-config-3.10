@@ -32,8 +32,7 @@
 
 **/cache/
 /user/launcher/config.json
-modding_progress.json
-mods.json
+ras_modding_progress.json
 **/locales
 #**/db
 **/package.json
