@@ -210,12 +210,12 @@
     "hard": {
       "Difficulty": {
         "VisibleDistCoef": 1.0,
-        "GainSightCoef": 2.0,
-        "ScatteringCoef": 2.5,
-        "HearingDistanceCoef": 0.5,
-        "AggressionCoef": 0.8,
+        "GainSightCoef": 1.0,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 1.0,
+        "AggressionCoef": 1.0,
         "PrecisionSpeedCoef": 1.0,
-        "AccuracySpeedCoef": 2.0
+        "AccuracySpeedCoef": 1.0
       },
       "Core": {
         "VisibleAngle": 130.0,
@@ -229,11 +229,11 @@
       },
       "Aiming": {
         "AimCenterMass": true,
-        "DistanceAimTimeMultiplier": 1.2,
+        "DistanceAimTimeMultiplier": 1.0,
         "AngleAimTimeMultiplier": 1.0,
         "FasterCQBReactions": true,
-        "FasterCQBReactionsDistance": 20.0,
-        "FasterCQBReactionsMinimum": 0.5,
+        "FasterCQBReactionsDistance": 30.0,
+        "FasterCQBReactionsMinimum": 0.33,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.85,
         "DIST_TO_SHOOT_NO_OFFSET": 3.0,
         "COEF_IF_MOVE": 1.5,
@@ -300,7 +300,7 @@
         "HandDamageAccuracySpeed": 1.5
       },
       "Shoot": {
-        "RecoilMultiplier": 2.0,
+        "RecoilMultiplier": 1.0,
         "BurstMulti": 1.5,
         "FireratMulti": 1.5,
         "MaxPointFireDistance": 150.0,
